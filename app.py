@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello g, from inside the original application!"
+    return "Hello g2, from inside the achanged application!"
 
 
 if __name__ == "__main__":
